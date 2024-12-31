@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e17cde8255.js" crossorigin="anonymous"></script>
+    <title>Template 1</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><h1 class="logo">Tutoring with Ryan</h1></a>
+        <div class="links">
+            <div class="bar-links nav-links">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="cta">
+            <a href="contact.html" class="btn">Book a Free Session</a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <main>
+            <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-left">
+                <h1><span class="subject-animation"></span> tutoring with Ryan</h1>
+                <p>Maths and Coding tutoring through personalized, practical lessons tailored for your success.</p>
+                <br>
+                <a href="book.html" class="btn btn-primary">Book a Free Session</a>
+            </div>
+            <div class="hero-right">
+                <img class="hero-right-img" src="./assets/images/portrait.png" alt="">
+                <p class="hero-right-bio">This is me <i class="fa-solid fa-arrow-up"></i></p>
+            </div>
+        </section>
+
+        
+        <!-- About Section -->
+        <section class="about" id="about">
+            <h2>About Me</h2>
+            <div class="container-section">
+                <div class="about-img">
+                    <h3>This is me <i class="fa-solid fa-arrow-down"></i></h3>
+                    <img src="./assets/images/portrait.jpg" alt="an image of me">
+                </div>
+                <div class="about-article">
+                    <h2>Hello! I'm Ryan,</h2>
+                    <p>
+                        I am Ryan, a passionate tutor committed to helping students excel in Math and Computer science with confidence and clarity.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- gap for testing
+        <section class="gap"></section> -->
+        
+        <section class="services" id="services">
+            <h2>What I Do</h2>
+            <div class="services-container">
+                <div class="service-block services-coding">
+                    <div class="services-item services-coding-img">
+                        <img class="services-img" src="assets/images/coding-icon.png" alt="Computer with code on the screen icon">
+                    </div>
+                    <div class="services-item services-text">
+                        <h3>Computer Scienece and Coding</h3>
+                        <p>I've completed my certificate 3 in computer science at TAFE<br>and have been programming for 2 years</p>
+                        <br>
+                        <p>I can help with Programming (Python, JavaScript, HTML and CSS),<br>Web Development, and basic Cyber Security concepts</p>
+                    </div>
+                </div>
+                <div class="service-block services-math">
+                    <div class="services-item services-text">
+                        <h3>Math Tutoring</h3>
+                        <p>In Highschool, I took Methods level Math</p>
+                        <br>
+                        <p>I got A's in math throughout highschool and can help with<br>Algebra, Statistics, Geometry, etc.</p>
+                    </div>
+                    <div class="services-item">
+                        <img class="services-img" src="assets/images/maths-icon.png" alt="Maths text book Icon">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <!-- <section class="testimonials">
+            <h2>What My Students Say</h2>
+            <div class="testimonials-container">
+                <div class="testimonial testimonial-1">
+                    <p>"Ryan helped me go from zero coding knowledge to building my first app! Highly recommend."</p>
+                    <h4>- Jane Doe</h4>
+                </div>
+                <div class="testimonial testimonial-2">
+                    <p>"Thanks to these lessons, I got a new job as a developer. The personalized approach made all the difference."</p>
+                    <h4>- John Smith</h4>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Pricing Section -->
+         <section class="pricing">
+            <h2>How Much Does It Cost?</h2>
+            <div class="pricing-container">
+                <div class="pricing-row">
+                    <div class="pricing-block pricing-online">
+                        <h3>Online Lesson</h3>
+                        <p><i>$30 per hour</i></p>
+                        <p>Online lessons are Hosted on Google Meet or Zoom.</p>
+    
+                    </div>
+                    <div class="pricing-block pricing-in-person">
+                        <h3>In-Person Lessons</h3>
+                        <p><i>$40 per hour</i></p>
+                        <p>In person lessons, where i travel to you, are $10 extra per hour due to the travel time.</p>
+                    </div>
+                </div>
+                <div class="pricing-row">
+                    <div class="pricing-block pricing-group">
+                        <h3>Group Lessons</h3>
+                        <p><i>Coming Soon</i></p>
+                        <p>Once we have a group of students, we will start offering group lessons for a lower price</p>
+                    </div>
+                    <div class="pricing-block pricing-1st">
+                        <h3>First Lesson</h3>
+                        <p><i>Free</i></p>
+                        <p>Your first lesson with me is free, so you can see if we're a good match!</p>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta-section">
+            <h2>Get Started Today!</h2>
+            <p>Take the first step towards mastering coding. Book your free trial class now.</p>
+            <a href="contact.html" class="btn btn-primary" id="book-session-btn">Book a Free Session</a>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section footer-about">
+                <h3>About Me</h3>
+                <p>Passionate coding tutor helping students and professionals master programming skills with ease and confidence.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <div class="bar-links">
+                    <a href="index.html">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Me</h3>
+                <p><a href="mailto:ryankelley1711@gmail.com" class="footer-email">Email: ryankelley1711@gmail.com</a></p>
+                <p>Phone: +61 447 293 569</p>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/ryan-kelley-8762a8285" class="social-link linkedin">
+                        <h2><i class="fa-brands fa-linkedin" style="color: #0C62B7;"></i></h2>
+                    </a>
+                    <a href="https://github.com/sparrowsaurora" class="social-link github">
+                        <h2><i class="fa-brands fa-github" style="color: #fff;"></i></h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy;<span id="current-year"></span> Ryan Kelley. All rights reserved.</p>
+        </div> 
+    </footer>
+</body>
