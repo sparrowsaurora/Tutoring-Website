@@ -17,15 +17,16 @@
     <!-- Header -->
     <nav>
         <a href="index.html"><h1 class="logo">Tutoring with Ryan</h1></a>
-        <ul class="nav-links" id="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="testimonials.html">Testimonials</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="links">
+            <div class="bar-links nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#services">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
         <div class="cta">
-            <a href="book.html" class="btn">Book a Free Session</a>
+            <a href="contact.html" class="btn">Book a Free Session</a>
         </div>
         <div class="hamburger" id="hamburger">
             <span></span>
@@ -36,7 +37,6 @@
 
     <!-- 404 Content -->
     <div class="max-height">
-        <main>
             <section class="page404">
                 <h1>404 - Page Not Found</h1>
                 <p>
@@ -44,7 +44,6 @@
                 </p>
                 <a href="index.html" class="btn btn-primary">Go Back to Home</a>
             </section>
-        </main>
     </div>
 
     <!-- Footer -->
@@ -52,20 +51,20 @@
         <div class="footer-content">
             <div class="footer-section footer-about">
                 <h3>About Me</h3>
-                <p>Passionate coding tutor helping students and professionals master programming skills with ease and confidence.</p>
+                <p>Passionate coding tutor helping students master maths and programming skills with ease and confidence.</p>
             </div>
-            <div class="footer-section links">
+            <div class="footer-section links footer-links">
                 <h3>Quick Links</h3>
-                <div class="footer-links">
+                <div class="bar-links">
                     <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="services.html">Services</a>
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#services">Services</a>
                     <a href="contact.html">Contact</a>
                 </div>
             </div>
             <div class="footer-section contact">
                 <h3>Contact Me</h3>
-                <p>Email: ryankelley1711@gmail.com</p>
+                <p><a href="mailto:ryankelley1711@gmail.com" class="footer-email">Email: ryankelley1711@gmail.com</a></p>
                 <p>Phone: +61 447 293 569</p>
                 <div class="socials">
                     <a href="https://www.linkedin.com/in/ryan-kelley-8762a8285" class="social-link linkedin">

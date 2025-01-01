@@ -455,6 +455,7 @@ footer {
     text-align: center;
     background: var(--space-cadet);
     flex: 1;
+    height: 100%;
 }
 .page404 h1{
     font-size: 3rem;
